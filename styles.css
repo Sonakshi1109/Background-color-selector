@@ -1,0 +1,75 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap'); */
+
+body{
+      overflow-x: hidden;
+}
+.lo{
+  margin-top: 20vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+
+}
+
+#slider{
+  height: 500px;
+  justify-content: space-evenly;
+}
+
+#red::-webkit-slider-runnable-track {
+  background: linear-gradient(to right, #000, red);
+}
+
+#green::-webkit-slider-runnable-track {
+  background: linear-gradient(to right, #000, rgb(17, 201, 17));
+}
+
+#blue::-webkit-slider-runnable-track {
+  background: linear-gradient(to right, #000, blue);
+}
+.heading{
+  margin-left: 19px;
+
+}
+#slider{ 
+  background-image: linear-gradient(purple,pink) ;
+  
+}
+#copyBtn{
+  background-color: rgb(172, 14, 138);
+  color: white;
+  border-radius: 45px;
+  margin-right: 20px;
+}
+#copybtn{
+  background-color: rgb(172, 14, 138);
+  color: white;
+  border-radius: 45px;
+  margin-left: 20px;
+}
+.buttons{
+  display: flex;
+  padding: 10px;
+}
+#resetbtn{
+  background-color: rgb(172, 14, 138);
+  color: white;
+  
+  
+}
+#copyBtn:hover{
+  background-color: white;
+  color:rgb(172, 14, 138);
+  cursor: pointer;
+}
+#copybtn:hover{
+  background-color: white;
+  color:rgb(172, 14, 138);
+  cursor: pointer;
+}
+#resetbtn:hover{
+  background-color: white;
+  color:rgb(172, 14, 138);
+  cursor: pointer;
+}

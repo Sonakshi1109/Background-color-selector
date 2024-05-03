@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background colour selector</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body> 
+     <div class="lo">
+    <div class="lo1 container-fluid d-flex justify-content-center align-items-center" id="container">
+        <div class="text-center col-sm-4 rounded-lg border border-light py-3 px-5 d-flex flex-column text-white  align-items-center" id="slider">
+            <div class="heading">
+                <h2>BACKGROUND COLOUR SELECTOR</h2>
+            </div>
+            <div class="row ">
+                <div class="col">
+                    RGB value: <input type="text" id="box" class="form-control" >
+                </div>
+                <div class="col">
+                    Hex code: <input type="text" id="hexCode" class="form-control">
+                </div>
+            </div>
+            Red: <input type="range" id="red" class="form-control-range" value="255" min="0" max="255">
+            Green: <input type="range" id="green" class="form-control-range" value="255" min="0" max="255">
+            Blue: <input type="range" id="blue" class="form-control-range" value="255" min="0" max="255">
+            <div class="buttons">
+            <button id="copyBtn" >Copy RGB</button>
+            <button id="copybtn" >Copy Hex</button>
+            </div>
+            <div class="resetbtn">
+                <button id="resetbtn" >RESET</button>
+            </div>
+        </div>
+    </div> 
+  </div> 
+    <script src="script.js"></script>
+</body>
+</html>
